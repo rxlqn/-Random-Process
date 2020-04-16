@@ -10,7 +10,7 @@
 
 - **Characteristic function: $g(X) = e^{jtX}$**
   $$
-  \Phi(t) = E\{e^{jtX}\}=\int_{-\infty}^{+\infty}e^{jtx}p(x)dx
+  \Phi(t) = E{e^{jtX}}=\int_{-\infty}^{+\infty}e^{jtx}p(x)dx
   $$
 
   - 类比连续时间傅里叶变换$f(w)=\int_{-\infty}^{+\infty}e^{-jex}p(x)dx$
