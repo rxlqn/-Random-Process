@@ -11,7 +11,7 @@
 
   - 类比连续时间傅里叶变换$f(w)=\int_{-\infty}^{+\infty}e^{-jex}p(x)dx$
 
-  - 随机变量$Z = X+Y$ 
+  - 随机变量$Z = X+Y$ :
     $$
     \begin{align}
     \Phi_{Z}(t) &= E\{{e^{jt(X+Y)}}\} \\
