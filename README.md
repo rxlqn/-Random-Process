@@ -1,5 +1,15 @@
-```
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+```html
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
 ```
 
 # Random Process learning notes
@@ -10,7 +20,7 @@
 
 - **Characteristic function: $g(X) = e^{jtX}$**
   $$
-  \Phi(t) = E{e^{jtX}}=\int_{-\infty}^{+\infty}e^{jtx}p(x)dx
+  \Phi(t) = E\{e^{jtX}\}=\int_{-\infty}^{+\infty}e^{jtx}p(x)dx
   $$
 
   - 类比连续时间傅里叶变换$f(w)=\int_{-\infty}^{+\infty}e^{-jex}p(x)dx$
